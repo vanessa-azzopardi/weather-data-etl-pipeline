@@ -86,6 +86,7 @@ weather-data-etl-pipeline/
     ├── weather-etl-banner.png
     ├── weather-etl-architecture.png
     └── temperature-comparison-chart.png
+```
 
 ## How to Run the Project
 
