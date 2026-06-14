@@ -1,1 +1,16 @@
+# Environment variables
+.env
 
+# Database files
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
