@@ -69,7 +69,7 @@ The transformed output contains one record per city.
 ## Repository Structure
 
 ```text
-etl-pipeline/
+weather-data-etl-pipeline/
 │
 ├── README.md
 ├── requirements.txt
@@ -86,3 +86,44 @@ etl-pipeline/
     ├── weather-etl-banner.png
     ├── weather-etl-architecture.png
     └── temperature-comparison-chart.png
+
+## How to Run the Project
+
+### 1. Clone the repository
+`git clone https://github.com/vanessa-azzopardi/etl-pipeline.git
+cd etl-pipeline`
+
+
+### 2. Install dependencies
+
+`pip install -r requirements.txt`
+
+
+### 3. Create an environment file
+
+Create a .env file in the project root and add your OpenWeatherMap API key:
+
+OPENWEATHER_API_KEY=your_api_key_here
+
+
+### 4. Run the pipeline
+`python src/weather_pipeline.py`
+
+
+## Skills Demonstrated
+
+- ETL pipeline development
+- REST API integration
+- JSON data extraction
+- Data transformation using Pandas
+- Database loading using SQLAlchemy
+- SQL querying
+- Data visualisation
+- Secure handling of API keys using environment variables
+- Repository organisation and documentation
+
+
+## Notes
+
+This project uses public weather data from the OpenWeatherMap API. API credentials are not stored in the repository. A .env.example file is included to show the required environment variable structure.
+
