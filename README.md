@@ -1,6 +1,6 @@
 # Weather Data ETL Pipeline
 
-![Weather Data ETL Pipeline Banner](images/weather-etl-banner.png)
+![Weather Data ETL Pipeline Banner](images/banner.png)
 
 ## Overview
 
