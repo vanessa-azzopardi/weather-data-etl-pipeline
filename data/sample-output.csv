@@ -1,1 +1,6 @@
-
+﻿,country,city,temperature,humidity,weather,wind_speed
+0,MT,Valletta,28.06,64,clear sky,3.95
+1,MT,Saint Venera,27.92,64,clear sky,4
+2,GB,London,21.11,49,overcast clouds,2.24
+3,FR,Paris,25.75,35,broken clouds,1.79
+4,US,New York,29.99,45,overcast clouds,4.92
